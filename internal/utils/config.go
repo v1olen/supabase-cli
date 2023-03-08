@@ -104,7 +104,8 @@ type (
 	}
 
 	studio struct {
-		Port uint `toml:"port"`
+		Port   uint   `toml:"port"`
+		ApiUrl string `toml:"api_url"`
 	}
 
 	inbucket struct {
